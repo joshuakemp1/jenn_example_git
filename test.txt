@@ -1,0 +1,42 @@
+hey jennifer
+
+
+here are the commands:
+
+from the repo
+do 
+
+git init
+
+git status - to see your work
+make chagnes to your script
+
+
+THEN do this
+
+git add .
+
+
+git commit -m "hey this is my first commit"
+
+NOW go to github and create the repo that you want to push to for example
+
+now add the remote lines:  it looks like this::
+
+git remote add origin https://github.com/joshuakemp1/jenn_example_git.git  - difffernt than this though
+
+
+Tell local git on your machine where to ALWAYS push your code for this repo:
+git push -u origin master
+
+
+check what files you are pushing with 
+
+git status
+
+git push - since you told it where to go you can simply push
+
+
+
+
+DONE!
